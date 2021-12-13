@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js" defer></script>
+</head>
+
+<body>
+    <section class=main>
+        <div class=imputs>
+            <legend>Entrées : </legend>
+            <label for="val1">Valeur 1 : </label>
+            <input type="number" id="val1" name="val1">
+            <label for="val2">Valeur 2 : </label>
+            <input type="number" id="val2" name="val2">
+        </div>
+        <div class=buttons>
+            <button id="add"> + </button>
+            <button id="sub"> - </button>
+            <button id="multiply"> x </button>
+            <button id="divide"> / </button>
+        </div>
+        <div class=results>
+            <fieldset>
+                <legend>Résultats</legend>
+                <input type="number" id="result">
+            </fieldset>
+        </div>
+    </section>
+</body>
+
+</html>
